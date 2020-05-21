@@ -1,3 +1,3 @@
 # DigitalClock
 
-https://wizardly-torvalds-f6e890.netlify.app/
+https://sharp-knuth-80ccf8.netlify.app/
