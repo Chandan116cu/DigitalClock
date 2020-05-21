@@ -1,0 +1,22 @@
+html,body {
+    margin: 0;
+    width: 100%;
+  }
+.main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.imgBg{
+    width: 100%;
+    height: 100%;
+}
+#showTime{
+    width: 100%;
+    position: absolute;
+    font-size: 8vw;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 8%;
+}

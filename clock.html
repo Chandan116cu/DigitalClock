@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <title>My New Clock</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+        <div id="showTime"></div>
+        <img class="imgBg" src="./assets/arnaud-steckle-dpzp54GkIGI-unsplash.jpg">
+        <script type="text/javascript">
+        function showTime(){
+            var date=new Date();
+            var hours=date.getHours();
+            var minutes=date.getMinutes();
+            var seconds=date.getSeconds();
+            var session="AM"
+            if(hours>12)
+            {
+                hours=hours-12;
+                session="PM"
+            }
+            if(hours<10)
+            {
+                hours="0"+hours;
+            }
+            if(minutes<10)
+            {
+                minutes="0"+minutes;
+            }
+            if(seconds<10)
+            {
+                seconds="0"+seconds;
+            }
+            var time=hours+":"+minutes+":"+seconds+" "+session;
+            document.getElementById("showTime").innerHTML=time;
+            setTimeout(showTime,1000);
+        }
+         showTime();
+        </script>
+        </div>
+    </body>
+</html>
