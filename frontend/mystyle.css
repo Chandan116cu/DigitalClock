@@ -18,5 +18,14 @@ html,body {
     color: white;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    margin-top: 8%;
+    margin-top: 12%;
+}
+#showDate{
+    width: 100%;
+    position: absolute;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 34% ;
 }
